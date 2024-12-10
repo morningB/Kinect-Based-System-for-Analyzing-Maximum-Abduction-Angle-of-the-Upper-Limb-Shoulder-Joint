@@ -357,33 +357,8 @@ namespace Microsoft.Samples.Kinect.WpfViewers
             // 오른팔 왼팔 ,왼무릎,오른 무릎, 왼다리,오른다리
             fileWriter.WriteLine($"{"Average angle"}, {averageshoulderRightAngle1},{averageshoulderLeftAngle1},{averageKneeLeftAngle1},{averageKneeRightAngle1},{averageLegLeftAngle1},{averageLegRightAngle1}");
             allFileWriter.WriteLine($"{frameCount},{currentRightAngle},{currentLeftAngle},{currentKneeLeftAngle},{currentLegLeft},{currentLegRight}");
-            //  pointFileWriter.WriteLine($"{this.Skeleton.Joints[JointType.AnkleRight].Position.X},{this.Skeleton.Joints[JointType.AnkleRight].Position.Y},{this.Skeleton.Joints[JointType.AnkleRight].Position.Z},{this.Skeleton.Joints[JointType.ShoulderRight].Position.X},{this.Skeleton.Joints[JointType.ShoulderRight].Position.Y},{this.Skeleton.Joints[JointType.ShoulderRight].Position.Z},{this.Skeleton.Joints[JointType.WristRight].Position.X},{this.Skeleton.Joints[JointType.WristRight].Position.Y},{this.Skeleton.Joints[JointType.WristRight].Position.Z}");
+          
             pointFileWriter.WriteLine($"{currentslopeRight},{currentslopeLeft}");
-
-            /*try
-            {
-                connection.Open();
-
-                // 데이터 삽입 쿼리
-                string query = "INSERT INTO users (username, email) VALUES ('wefasfef', '123@ananan.com')";
-
-                // 쿼리 실행을 위한 MySqlCommand 객체 생성
-                MySqlCommand command = new MySqlCommand(query, connection);
-
-                // 쿼리 실행
-                command.ExecuteNonQuery();
-
-                Console.WriteLine("데이터 삽입 성공");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("데이터 삽입 중 오류 발생: " + ex.Message);
-            }
-            finally
-            {
-                // 연결 닫기
-                connection.Close();
-            }*/
 
         }
 
