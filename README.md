@@ -4,7 +4,11 @@
 - 이 시스템은 정확한 측정 데이터를 제공하고 **재활 치료 과정**의 효율성을 향상시키는 것을 목표로 했습니다.
 - **20개의 Skeleton point**를 활용해 인체의 움직임을 정량적으로 분석하고 실시간으로 모니터링했습니다.
 
-  https://github.com/user-attachments/assets/39e841f5-ae0b-4983-b5ef-4d11d18dfadb
+  
+    <img src="https://github.com/user-attachments/assets/e5a4ee27-1bf5-45d6-aba0-9d313b224fa8" width="400" height="200"/>
+
+    Kinect를 통해 추출한 Skeleton point
+  
 - **2D** 공간의 **좌표 데이터**를 기반으로 사용자의 자세와 움직임을 추적했습니다.
 - 개발한 시스템과 실제 각도기 측정값 간의 **유의성 분석** 결과, 두 측정 방식 사이에 **유의미한 차이가 없음**을 확인했습니다.
 
@@ -20,7 +24,9 @@
     - 해당 자세한 코드는 [**이곳에서**](https://github.com/morningB/Kinect-Based-System-for-Analyzing-Maximum-Abduction-Angle-of-the-Upper-Limb-Shoulder-Joint/blob/master/KinectSkeleton.cs) 확인할 수 있습니다.
 - **데이터 분석 및 유의성 검사**: 수집된 각도 데이터를 분석하고, 통계적 유의성을 검증하여 시스템의 신뢰도를 높였습니다.
     
-  
+    <img src="https://github.com/user-attachments/assets/f7856130-1d88-4bad-82cf-0dfd3f128a66" width="500" height="78"/>
+
+    Kinect를 통해 추출한 Skeleton point
     
 
 ---
