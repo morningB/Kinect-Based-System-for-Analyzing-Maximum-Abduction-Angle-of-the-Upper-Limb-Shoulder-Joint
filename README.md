@@ -3,10 +3,11 @@
 - 실제 임상에서 사용되는 **접촉식 각도기**를 대체하는 **비접촉식** 시스템을 개발하여 환자의 팔 외전각을 측정할 수 있게 했습니다.
 - 이 시스템은 정확한 측정 데이터를 제공하고 **재활 치료 과정**의 효율성을 향상시키는 것을 목표로 했습니다.
 - **20개의 Skeleton point**를 활용해 인체의 움직임을 정량적으로 분석하고 실시간으로 모니터링했습니다.
+
+  https://github.com/user-attachments/assets/39e841f5-ae0b-4983-b5ef-4d11d18dfadb
 - **2D** 공간의 **좌표 데이터**를 기반으로 사용자의 자세와 움직임을 추적했습니다.
 - 개발한 시스템과 실제 각도기 측정값 간의 **유의성 분석** 결과, 두 측정 방식 사이에 **유의미한 차이가 없음**을 확인했습니다.
 
-[Github](https://github.com/morningB/Kinect-Based-System-for-Analyzing-Maximum-Abduction-Angle-of-the-Upper-Limb-Shoulder-Joint)
 
 담당 인원 : 1명 
 
